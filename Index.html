@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Kalkulator nya orang sigma</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+<h1>Kalkulator nya orang sigma</h1>
+
+<div class="box">
+    <h2>Kalkulator Pemula</h2>
+    <input type="number" id="a" placeholder="Angka 1">
+    <input type="number" id="b" placeholder="Angka 2">
+
+    <button onclick="tambah()">+</button>
+    <button onclick="kurang()">−</button>
+    <button onclick="kali()">×</button>
+    <button onclick="bagi()">÷</button>
+
+    <p>Hasil: <span id="hasil"></span></p>
+</div>
+
+<div class="box">
+    <h2>Hitung Diskon ahhh</h2>
+    <input type="number" id="harga" placeholder="Harga">
+    <input type="number" id="diskon" placeholder="Diskon (%)">
+    <button onclick="hitungDiskon()">Hitung</button>
+    <p>Total: <span id="total"></span></p>
+</div>
+
+<div class="box">
+    <h2>Rata-rata Nilai</h2>
+    <input type="number" id="n1" placeholder="Nilai 1">
+    <input type="number" id="n2" placeholder="Nilai 2">
+    <input type="number" id="n3" placeholder="Nilai 3">
+    <button onclick="hitungNilai()">Hitung</button>
+    <p>Rata-rata: <span id="rata"></span></p>
+    <p>Grade: <span id="grade"></span></p>
+</div>
+
+<script src="Script.js"></script>
+</body>
+</html>
